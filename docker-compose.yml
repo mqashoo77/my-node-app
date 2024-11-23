@@ -3,6 +3,7 @@ version: "3"
 services: 
   my-node-app:
     container_name: my-node-app-container
+    image: mqashoo77/mqashoo77-node
     ports:
       - "4000:4000"
     env_file:
