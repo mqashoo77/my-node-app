@@ -56,7 +56,7 @@ app.get('/data', async (req, res)=>{
 
 app.get('/products', async (req, res)=>{
 
-    const products = [Apple, Samsung ]
+    const products = ['Apple', 'Samsung']
     res.send(`<h2>${products}</h2>`);
 });
 
