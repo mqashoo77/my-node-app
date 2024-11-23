@@ -45,7 +45,7 @@ postgresClient.connect().then(()=> console.log("Connected to postgres DB")).catc
 app.get('/', (req, res)=>{
 
     client.set('products','products...');
-    res.send("Hello fadi");
+    res.send("Hello Docker hub");
 });
 
 app.get('/data', async (req, res)=>{
