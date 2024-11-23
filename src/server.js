@@ -54,6 +54,12 @@ app.get('/data', async (req, res)=>{
     res.send(`<h2>${products}</h2>`);
 });
 
+app.get('/products', async (req, res)=>{
+
+    const products = [Apple, Samsung ]
+    res.send(`<h2>${products}</h2>`);
+});
+
 app.listen(PORT, function(){
 
     console.log("app is listen at port " + PORT);
